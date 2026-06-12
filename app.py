@@ -3,6 +3,17 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
+import streamlit as st
+import tensorflow as tf
+import numpy as np
+from PIL import Image
+
+st.set_page_config(
+    page_title="Pulmonary Disease Detector",
+    page_icon="🫁",
+    layout="centered"
+)
+
 # Cargar modelo
 @st.cache_resource
 def cargar_modelo():
@@ -17,7 +28,7 @@ clases = [
     "PNEUMONIA"
 ]
 
-st.title("Detector de Enfermedades Pulmonares con IA")
+st.title("🫁 Pulmonary Disease Detector")
 
 st.write(
     "Sube una radiografía de tórax y el modelo estimará la clase más probable."
