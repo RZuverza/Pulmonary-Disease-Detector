@@ -1,19 +1,19 @@
-# Detector de Enfermedades Pulmonares con IA
+# Pulmonary Disease Detector
 
-Proyecto desarrollado por Ricardo García Z.
+Deep Learning application for chest X-ray classification using TensorFlow and Streamlit.
 
-## Descripción
+## Overview
 
-Esta aplicación utiliza una red neuronal convolucional (CNN) entrenada con TensorFlow para clasificar radiografías de tórax en cuatro categorías:
+This project uses a trained TensorFlow/Keras model to classify chest X-ray images into four categories:
 
 - COVID
-- LUNG_OPACITY
-- NORMAL
-- PNEUMONIA
+- Lung Opacity
+- Normal
+- Pneumonia
 
-La aplicación fue desplegada mediante Streamlit y permite cargar una imagen para obtener una predicción automática.
+The application includes an interactive Streamlit interface that allows users to upload a chest X-ray image and obtain predictions with confidence scores.
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - Python
 - TensorFlow / Keras
@@ -21,21 +21,32 @@ La aplicación fue desplegada mediante Streamlit y permite cargar una imagen par
 - NumPy
 - Pillow
 
-## Estructura del proyecto
+## Project Structure
 
-proyecto_ai/
-├── dataset/
-├── app.py
-├── covid_v2.ipynb
-├── modelo_covid_v2.keras
-└── requirements
+```text
+app.py
+modelo_covid_v2.keras
+requirements.txt
+covid_v2.ipynb
+dataset/
+README.md
+```
 
-## Resultados
+## Running the Application
 
-- Accuracy de validación: ~82%
-- Clasificación de 4 enfermedades pulmonares
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-## Autor
+## Features
+
+- Chest X-ray image upload
+- Real-time disease classification
+- Confidence score visualization
+- Probability distribution chart
+- Simple web interface
+
+## Author
 
 Ricardo García Zuverza.
-Ingeniero Electromédico
