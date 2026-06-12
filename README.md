@@ -8,7 +8,6 @@
 
 Deep Learning application for chest X-ray classification using TensorFlow and Streamlit.
 
-Deep Learning application for chest X-ray classification using TensorFlow and Streamlit.
 
 ## Overview
 
