@@ -1,14 +1,6 @@
 # Pulmonary Disease Detector
 
 
-
-## Application Preview
-
-![Application Screenshot](Pulmonary%20Disease%20Detector.png)
-
-Deep Learning application for chest X-ray classification using TensorFlow and Streamlit.
-
-
 ## Overview
 
 This project uses a trained TensorFlow/Keras model to classify chest X-ray images into four categories:
@@ -53,6 +45,16 @@ streamlit run app.py
 - Confidence score visualization
 - Probability distribution chart
 - Simple web interface
+
+
+
+## Application Preview
+
+![Application Screenshot](Pulmonary%20Disease%20Detector.png)
+
+Deep Learning application for chest X-ray classification using TensorFlow and Streamlit.
+
+
 
 ## Author
 
