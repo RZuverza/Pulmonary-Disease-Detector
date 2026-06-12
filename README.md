@@ -1,4 +1,8 @@
-# Pulmonary Disease Detector
+# 🫁 Pulmonary Disease Detector
+
+![Demo](Pulmonary%20Disease%20Detector.png)
+
+Deep Learning application for chest X-ray classification using TensorFlow and Streamlit.
 
 
 ## Overview
