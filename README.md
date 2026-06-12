@@ -1,6 +1,6 @@
 # Pulmonary Disease Detector
 
-# Pulmonary Disease Detector
+
 
 ## Application Preview
 
