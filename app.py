@@ -32,7 +32,7 @@ if archivo is not None:
 
     imagen = Image.open(archivo).convert("RGB")
 
-    st.image(imagen, caption="Imagen cargada", use_container_width=True)
+    st.image(imagen, caption="Imagen cargada")
 
     imagen = imagen.resize((224, 224))
 
